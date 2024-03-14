@@ -6,13 +6,13 @@ This project aims to analyze weather data from various cities around the world a
 
 The project consists of two main parts:
 
-1. **Weather Analysis (Part 1):**
+1. **Weather Analysis.ipynb:**
    - Retrieves weather data for a list of randomly generated cities using the OpenWeatherMap API.
    - Creates scatter plots to visualize the relationships between weather variables (temperature, humidity, cloudiness, and wind speed) and latitude.
    - Computes linear regression for each relationship to analyze trends.
    - Saves the output data and plots in CSV files and PNG images, respectively.
 
-2. **Hotel Search (Part 2):**
+2. **Vacation.ipynb:**
    - Utilizes the weather data obtained in Part 1.
    - Finds hotels near cities that meet specified weather criteria using the Geoapify API.
    - Displays the cities on a map along with markers indicating the locations of the hotels found.
@@ -50,13 +50,13 @@ The project consists of two main parts:
 1. Run Part 1 of the project to gather weather data and analyze relationships:
 
    ```
-   python part1_weather_analysis.py
+   python WeatherPy.solved.ipynb
    ```
 
 2. Run Part 2 of the project to search for hotels near cities with ideal weather conditions:
 
    ```
-   python part2_hotel_search.py
+   python VacationPy.solved.ipynb
    ```
 
 3. View the generated plots and maps in the `output_data` directory.
