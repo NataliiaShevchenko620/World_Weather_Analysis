@@ -9,13 +9,21 @@ The project consists of two main parts:
 1. **Weather Analysis.ipynb:**
    - Retrieves weather data for a list of randomly generated cities using the OpenWeatherMap API.
    - Creates scatter plots to visualize the relationships between weather variables (temperature, humidity, cloudiness, and wind speed) and latitude.
+
+   ![weather_1](Images/weather_1.png)
+
    - Computes linear regression for each relationship to analyze trends.
+
+   ![weather_2](Images/weather_2.png)
+
    - Saves the output data and plots in CSV files and PNG images, respectively.
 
 2. **Vacation.ipynb:**
    - Utilizes the weather data obtained in Part 1.
    - Finds hotels near cities that meet specified weather criteria using the Geoapify API.
    - Displays the cities on a map along with markers indicating the locations of the hotels found.
+
+   ![vacation](Images/vacation.png)
 
 ## Requirements
 
